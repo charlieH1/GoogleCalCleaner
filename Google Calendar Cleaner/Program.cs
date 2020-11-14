@@ -44,13 +44,15 @@ namespace Google_Calendar_Cleaner
                             succesfulDeletes++;
                         }
                         deleteResponse.Close();
+                        Thread.Sleep(1000);
                     }
                     catch(Exception ex)
                     {
-                        Console.WriteLine("Eror occured: " + ex.Message + " " + ex.InnerException + " Succesfull Deletes: " + succesfulDeletes);
+                       Console.WriteLine("Eror occured: " + ex.Message + " " + ex.InnerException + " Succesfull Deletes: " + succesfulDeletes);
                         Console.WriteLine("Sleeping for 5 minutes");
                         Thread.Sleep(5 * 60 * 1000);
                         Console.WriteLine("Awake again");
+                        
 
                     }
 
