@@ -29,11 +29,12 @@ namespace Google_Calendar_Cleaner
             int succesfulDeletes = 0;
             while (converted.Items.Count > 0)
             {
-                try
+                
+                foreach (var item in converted.Items)
                 {
-                    foreach (var item in converted.Items)
+                    
+                    try
                     {
-
                         HttpWebRequest deleteRequest = (HttpWebRequest)WebRequest.Create("https://www.googleapis.com/calendar/v3/calendars/" + calendarId + "/events/" + item.Id);
                         deleteRequest.Method = "DELETE";
                         deleteRequest.Headers.Add("Authorization", "Bearer " + bearerToken);
@@ -43,17 +44,21 @@ namespace Google_Calendar_Cleaner
                             succesfulDeletes++;
                         }
                         deleteResponse.Close();
-
+                    }
+                    catch(Exception ex)
+                    {
+                        Console.WriteLine("Eror occured: " + ex.Message + " " + ex.InnerException + " Succesfull Deletes: " + succesfulDeletes);
+                        Console.WriteLine("Sleeping for 5 minutes");
+                        Thread.Sleep(5 * 60 * 1000);
+                        Console.WriteLine("Awake again");
 
                     }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("Error Occured after " + succesfulDeletes);
-                    break;
-                }
 
-
+                }
+                
+                Console.WriteLine("Sleeping for 5 minutes after " + succesfulDeletes + " Succesful Deletes" );
+                Thread.Sleep(5 * 60 * 1000);
+                Console.WriteLine("Awake again");
                 request = WebRequest.Create("https://www.googleapis.com/calendar/v3/calendars/" + calendarId + "/events");
                 request.Headers.Add("Authorization", "Bearer " + bearerToken);
                 response = request.GetResponse();
