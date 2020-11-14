@@ -1,0 +1,23 @@
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\bin\Debug\Google Calendar Cleaner.exe.config
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\bin\Debug\Google Calendar Cleaner.exe
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\bin\Debug\Google Calendar Cleaner.pdb
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\obj\Debug\Google Calendar Cleaner.csprojAssemblyReference.cache
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\obj\Debug\Google Calendar Cleaner.exe
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\obj\Debug\Google Calendar Cleaner.pdb
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\bin\Debug\Google.Apis.Auth.dll
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\bin\Debug\Google.Apis.Auth.PlatformServices.dll
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\bin\Debug\Google.Apis.Calendar.v3.dll
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\bin\Debug\Google.Apis.Core.dll
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\bin\Debug\Google.Apis.dll
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\bin\Debug\Google.Apis.PlatformServices.dll
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\bin\Debug\Newtonsoft.Json.dll
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\bin\Debug\Google.Apis.pdb
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\bin\Debug\Google.Apis.xml
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\bin\Debug\Google.Apis.Auth.pdb
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\bin\Debug\Google.Apis.Auth.xml
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\bin\Debug\Google.Apis.Calendar.v3.pdb
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\bin\Debug\Google.Apis.Calendar.v3.xml
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\bin\Debug\Google.Apis.Core.pdb
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\bin\Debug\Google.Apis.Core.xml
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\bin\Debug\Newtonsoft.Json.xml
+C:\Users\chardy\source\repos\Google Calendar Cleaner\Google Calendar Cleaner\obj\Debug\Google Calendar Cleaner.csproj.CopyComplete
